@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-llm install git+https://github.com/aeonmindai/llm-runcrate
+llm install llm-runcrate
 ```
 
 ## Configure
