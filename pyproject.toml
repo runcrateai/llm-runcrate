@@ -1,0 +1,28 @@
+[project]
+name = "llm-runcrate"
+version = "0.1.0"
+description = "LLM plugin for Runcrate: 200+ open models behind one OpenAI-compatible API"
+readme = "README.md"
+authors = [{ name = "Aeonmind LLC", email = "hello@runcrate.ai" }]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+classifiers = ["License :: OSI Approved :: MIT License"]
+dependencies = ["llm>=0.26", "httpx"]
+
+[project.urls]
+Homepage = "https://www.runcrate.ai/?utm_source=github-llm-runcrate&utm_medium=directory&utm_campaign=gpu_pricing"
+Repository = "https://github.com/aeonmindai/llm-runcrate"
+Issues = "https://github.com/aeonmindai/llm-runcrate/issues"
+
+[project.entry-points.llm]
+runcrate = "llm_runcrate"
+
+[dependency-groups]
+test = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["llm_runcrate"]
