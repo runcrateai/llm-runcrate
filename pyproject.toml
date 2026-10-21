@@ -10,9 +10,9 @@ classifiers = ["License :: OSI Approved :: MIT License"]
 dependencies = ["llm>=0.26", "httpx"]
 
 [project.urls]
-Homepage = "https://www.runcrate.ai/?utm_source=github-llm-runcrate&utm_medium=directory&utm_campaign=gpu_pricing"
-Repository = "https://github.com/aeonmindai/llm-runcrate"
-Issues = "https://github.com/aeonmindai/llm-runcrate/issues"
+Homepage = "https://www.runcrate.ai/docs?utm_source=pypi-llm-runcrate&utm_medium=directory&utm_campaign=gpu_pricing"
+Documentation = "https://www.runcrate.ai/docs/api-reference/chat/chat-llm-completion?utm_source=pypi-llm-runcrate&utm_medium=directory&utm_campaign=gpu_pricing"
+Pricing = "https://www.runcrate.ai/inference/pricing?utm_source=pypi-llm-runcrate&utm_medium=directory&utm_campaign=gpu_pricing"
 
 [project.entry-points.llm]
 runcrate = "llm_runcrate"

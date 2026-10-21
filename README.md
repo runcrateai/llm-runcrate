@@ -1,6 +1,6 @@
 # llm-runcrate
 
-[LLM](https://llm.datasette.io/) plugin for [Runcrate](https://www.runcrate.ai/?utm_source=github-llm-runcrate&utm_medium=directory&utm_campaign=gpu_pricing): 200+ open models (DeepSeek, Qwen, Llama, Kimi, gpt-oss and more) behind one OpenAI-compatible API, billed per token from one prepaid balance.
+[LLM](https://llm.datasette.io/) plugin for [Runcrate](https://www.runcrate.ai/?utm_source=pypi-llm-runcrate&utm_medium=directory&utm_campaign=gpu_pricing): 200+ open models (DeepSeek, Qwen, Llama, Kimi, gpt-oss and more) behind one OpenAI-compatible API, billed per token from one prepaid balance.
 
 ## Install
 
@@ -10,7 +10,7 @@ llm install llm-runcrate
 
 ## Configure
 
-Create an API key ([docs](https://www.runcrate.ai/docs/account/api-keys?utm_source=github-llm-runcrate&utm_medium=directory&utm_campaign=gpu_pricing)), then:
+Create an API key ([docs](https://www.runcrate.ai/docs/account/api-keys?utm_source=pypi-llm-runcrate&utm_medium=directory&utm_campaign=gpu_pricing)), then:
 
 ```bash
 llm keys set runcrate
@@ -37,7 +37,7 @@ model = llm.get_model("runcrate/deepseek-ai/DeepSeek-V3.2")
 print(model.prompt("Name three uses for an H100").text())
 ```
 
-Models and per-token prices: [runcrate.ai/inference/pricing](https://www.runcrate.ai/inference/pricing?utm_source=github-llm-runcrate&utm_medium=directory&utm_campaign=gpu_pricing). The same account rents GPUs by the hour, and the remote MCP server `https://mcp.runcrate.ai/mcp` (OAuth sign-in, no key) lets agents launch them ([setup](https://www.runcrate.ai/docs/mcp/setup?utm_source=github-llm-runcrate&utm_medium=directory&utm_campaign=mcp)).
+Models and per-token prices: [runcrate.ai/inference/pricing](https://www.runcrate.ai/inference/pricing?utm_source=pypi-llm-runcrate&utm_medium=directory&utm_campaign=gpu_pricing). The same account rents GPUs by the hour, and the remote MCP server `https://mcp.runcrate.ai/mcp` (OAuth sign-in, no key) lets agents launch them ([setup](https://www.runcrate.ai/docs/mcp/setup?utm_source=pypi-llm-runcrate&utm_medium=directory&utm_campaign=mcp)).
 
 ## Development
 
